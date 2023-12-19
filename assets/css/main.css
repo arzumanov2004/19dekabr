@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#sec-1 {
+  width: 100%;
+  min-height: 800px;
+  background-image: url("https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#sec-1 .Special {
+  width: 100%;
+  min-height: 400px;
+  color: white;
+}
+#sec-1 .Special .Offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  min-height: 80px;
+  background-color: #FC6428;
+}
+#sec-1 .Special .BEST {
+  width: 100%;
+}
+#sec-1 .Special .BEST h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+#sec-1 .Special .BEST h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#sec-1 .Special .BEST p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#sec-1 .Special .BEST .summo_text {
+  display: flex;
+  gap: 20px;
+}
+#sec-1 .Special .BEST .summo_text .summo_left {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+#sec-1 .Special .BEST .summo_text .summo_left .summo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#sec-1 .Special .BEST .summo_text .summo_left .summo span {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  letter-spacing: 0.32px;
+  font-weight: 540;
+}
+#sec-1 .Special .BEST .summo_text .summo_right {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+#sec-1 .Special .BEST .summo_text .summo_right .summo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#sec-1 .Special .BEST .summo_text .summo_right .summo span {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  letter-spacing: 0.32px;
+  font-weight: 540;
+}
+#sec-1 .Special .BEST button {
+  margin-top: 20px;
+  width: 30%;
+  min-height: 60px;
+  border: none;
+  background-color: #FC6428;
+  color: white;
+}
+#sec-1 .Special .BEST button:hover {
+  background-color: #e05924;
+}
+#sec-1 .Special img {
+  max-width: 100%;
+}
+
+#adToCart {
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#adToCart .cart .CLIENT {
+  text-align: center;
+}
+#adToCart .cart .CLIENT h1 {
+  font-weight: 400;
+}
+#adToCart .cart #inp {
+  width: 40%;
+  min-height: 40px;
+  padding-left: 20px;
+}
+#adToCart .cart #axtar {
+  border: none;
+  width: 10%;
+  min-height: 40px;
+  background-color: #FC6428;
+  color: white;
+}
+#adToCart .cart #axtar:hover {
+  background-color: #e05924;
+}
+#adToCart .cart #myDiv {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adToCart .cart #myDiv .myBox {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#adToCart .cart #myDiv .myBox img {
+  max-width: 35%;
+  border-radius: 60%;
+  margin-bottom: 20px;
+}
+#adToCart .cart #myDiv .myBox h5 {
+  margin-bottom: 20px;
+}
+#adToCart .cart #myDiv .myBox p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#adToCart .cart #myDiv .myBox button {
+  width: 40%;
+  min-height: 30px;
+  border-radius: 20px;
+  background-color: #FC6428;
+  color: white;
+  border: none;
+}
+#adToCart .cart #myDiv .myBox button:hover {
+  background-color: #e05924;
+}
+#adToCart .cart #searchDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adToCart .cart #searchDiv .myBox {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#adToCart .cart #searchDiv .myBox img {
+  max-width: 35%;
+  border-radius: 60%;
+  margin-bottom: 20px;
+}
+#adToCart .cart #searchDiv .myBox h5 {
+  margin-bottom: 20px;
+}
+#adToCart .cart #searchDiv .myBox p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#adToCart .cart #searchDiv .myBox button {
+  width: 40%;
+  min-height: 30px;
+  border-radius: 20px;
+  background-color: #FC6428;
+  color: white;
+  border: none;
+}
+#adToCart .cart #searchDiv .myBox button:hover {
+  background-color: #e05924;
+}
+#adToCart .cart #btn {
+  width: 20%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #FC6428;
+  color: white;
+  border: none;
+}
+#adToCart .cart #btn:hover {
+  background-color: #e05924;
+}
+
+#sec-2 {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7DB9E8;
+  color: white;
+}
+#sec-2 .HAPPY {
+  width: 100%;
+  min-height: 150px;
+}
+#sec-2 .HAPPY .CLIENT {
+  text-align: center;
+}
+#sec-2 .HAPPY .CLIENT h1 {
+  font-weight: 400;
+}
+#sec-2 .HAPPY .Project {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#sec-3 {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec-3 .CLIENT {
+  text-align: center;
+  width: 100%;
+  min-height: 200px;
+}
+#sec-3 .CLIENT h1 {
+  font-weight: 400;
+}
+#sec-3 .Professional {
+  border: 0.3px solid rgb(196, 193, 193);
+  width: 100%;
+  margin-bottom: 20px;
+}
+#sec-3 .Professional img {
+  max-width: 100%;
+}
+#sec-3 .Professional h5 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#sec-3 .Professional p {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 20px;
+}
+footer .footer {
+  width: 100%;
+  min-height: 150px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer p {
+  margin-top: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basket {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#basket .basketClass {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#basket .basketClass #myDiv {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#basket .basketClass #myDiv .myBox {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#basket .basketClass #myDiv .myBox img {
+  max-width: 35%;
+  border-radius: 60%;
+  margin-bottom: 20px;
+}
+#basket .basketClass #myDiv .myBox h5 {
+  margin-bottom: 20px;
+}
+#basket .basketClass #myDiv .myBox p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#basket .basketClass #myDiv .myBox button {
+  width: 40%;
+  min-height: 30px;
+  border-radius: 20px;
+  background-color: #FC6428;
+  color: white;
+  border: none;
+}
+#basket .basketClass #myDiv .myBox button:hover {
+  background-color: #e05924;
+}
